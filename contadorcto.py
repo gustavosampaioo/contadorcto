@@ -39,7 +39,7 @@ def salvar_csv(dados, nome_arquivo):
 # Interface Streamlit
 st.title("Extrator de Dados KML para CSV de Nuvem")
 
-kml_url = st.text_input("https://drive.google.com/drive/folders/1ANQwbp_2cqeVNYB3R0REN9cWsHh4TvKc")
+kml_url = st.text_input("https://drive.google.com/file/d/16sPR0qxkCVZm7fEy2hGz0IcHokC1jJvU/view?usp=sharing")
 
 if kml_url:
     try:
